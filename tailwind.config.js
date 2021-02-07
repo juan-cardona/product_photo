@@ -3,4 +3,11 @@ module.exports = {
   purge: ["./src/**/*.js"],
   // https://github.com/tailwindlabs/tailwindcss-forms
   plugins: [require("@tailwindcss/forms")],
+  theme: {
+    extend: {
+      backgroundImage: theme => ({
+         'rosca': "url('/img/rosca.jpg')",
+      })
+    }
+  },
 };
