@@ -17,7 +17,13 @@ function AboutPage() {
           <blockquote className="pl-4 font-serif leading-loose text-justify border-l-4 border-gray-900">
             The point is... to live one&apos;s life in the full complexity of
             what one is, which is something much darker, more contradictory,
-            more of a maelstrom of impulses and passions, of cruelty, ecstacy,
+            more of a maelstrom of more of a maelstrom of impulses and passions, of cruelty, ecstacy,
+            and madness, than is apparent to thmore of a maelstrom of impulses and passions, of cruelty, ecstacy,
+            and madness, than is apparent to thmore of a maelstrom of impulses and passions, of cruelty, ecstacy,
+            and madness, than is apparent to thmore of a maelstrom of impulses and passions, of cruelty, ecstacy,
+            and madness, than is apparent to thmore of a maelstrom of impulses and passions, of cruelty, ecstacy,
+            and madness, than is apparent to thmore of a maelstrom of impulses and passions, of cruelty, ecstacy,
+            and madness, than is apparent to thimpulses and passions, of cruelty, ecstacy,
             and madness, than is apparent to the civilized being who glides on
             the surface and fits smoothly into the world.
           </blockquote>

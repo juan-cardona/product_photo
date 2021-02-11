@@ -3,6 +3,7 @@ import React from "react";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 import catAndHumanIllustration from "../images/cat-and-human-illustration.svg";
+import llaveDeAgua from "../images/DSC00409-Edit.jpg";
 
 
 function IndexPage() {
@@ -13,19 +14,25 @@ function IndexPage() {
         title="Home"
       />
       
-      <section className="text-center  ">
+      <section className="text-center">
 
-        <h2 className="inline-block p-6 mt-8 mb-12 text-4xl  font-bold ">
-          Product photography for your website, Amazon, and more.
+        <h2 className="inline-grid p-6 mt-8 mb-12 text-4xl font-bold ">
+        Fotografía de producto para Amazon, Mercado Libre, tu sitio web y más...
         </h2>
 
         <p className="leading-loose">
-        We make it easy to get professional photos of your product quickly and affordably.{` `}          
+        Hacemos sencillo conseguir imagenes profesionales de tu producto.       
         </p>
+
+        <img
+          alt="Ejemplo de fotografia de producto"
+          className="inline-block w-1/2 mx-auto mt-16 float-center"
+          src={llaveDeAgua}
+        />
 
       </section>
 
-      <section className="text-center mt-20">
+      <section className="text-left mt-4">
         <h2 className="inline-block p-3 mb-6 mt-32 text-2xl font-bold ">
           Tu nos envías tu producto, nosotros te envíamos las fotos!
         </h2>
@@ -35,24 +42,22 @@ function IndexPage() {
           src={catAndHumanIllustration}
         />
         <p className="leading-loose">
-        
-        
-You ship it, we shoot it! ®
-We specialize in white background product photography for your website, online store, the Amazon marketplace, print, and more. Just ship your products to our Las Vegas studio, our team will shoot and edit them here, then we ship them back to you.
+          Tu nos envías tu producto, nosotros te envíamos las fotos!
+          <br></br>
+          Nos especializamos en fotograía de producto con fondos blancos para tu sitio web, tu tienda en línea, el marketplace de Amazon, Mercado Libre, Facebook y más.
+          Sólo envíanos tu producto a nuestro estudio en León, Gto, México, nuestro equipo se encargará de tomar y editar las fotos y te las envíaremos una vez que estén listas.
+          <br></br>
 
-Since our start in 2003 we’ve worked with thousands of clients worldwide ranging from small startups to Fortune 500 companies. We’ve built great relationships with our clients, many we’ve been working with regularly for over 10 years.
-
-We’ve spent over a decade perfecting our process to make it easy to work with us no matter your location. Curious how to work with a remote photo studio? We’ve put together a guide that explains the steps and answers the most common questions..{` `}          
+          Si te interesa trabajar con un estudio remoto pero tienes curiosidad de como funciona nuestro proceso, puedes consultar nuestra guía de compra que hemos preparado cuidadosamenta para explicarte paso a paso nuestro proceso.
         </p>
-
-          <button className="px-4 py-1 text-sm text-purple-600 font-semibold rounded-full border border-purple-200 hover:text-white hover:bg-purple-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-offset-2">Message</button>
+          <button className="float-right  px-4 py-1 mt-12 ml-28 text-sm  text-purple-600 font-semibold rounded-full border border-purple-200 hover:text-white hover:bg-purple-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-offset-2">Message</button>
       </section>
 
-
+<section className="text-left">
 <div className="py-12 bg-white">
-  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+  <div className="max-w-7xl mx-auto px-4 mt-28 sm:px-6 lg:px-8">
     <div className="lg:text-center">
-      <h2 className="text-base text-purple-600  font-semibold tracking-wide uppercase">Transactions</h2>
+      <h2 className="text-base text-purple-600  font-semibold tracking-wide uppercase">Ventajas</h2>
       <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
       Crisp photos packed with features you’ll love
       </p>
@@ -131,10 +136,10 @@ We’ve spent over a decade perfecting our process to make it easy to work with 
           </div>
           <div className="ml-4">
             <dt className="text-lg leading-6 font-medium text-gray-900">
-              Mobile notifications
+              Desde cualquier lugar
             </dt>
             <dd className="mt-2 text-base text-gray-500">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
+              No importa donde te encuentres, solo envíanos tu producto y nosotros nos encargamos de lo demás.
             </dd>
           </div>
         </div>
@@ -142,7 +147,31 @@ We’ve spent over a decade perfecting our process to make it easy to work with 
     </div>
   </div>
 </div>
+</section>
 
+<section>
+<div className="bg-transparent">
+  <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 lg:flex lg:items-center lg:justify-between">
+    <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+      <span className="block">Ready to dive in?</span>
+      <span className="block text-indigo-600">Start your free trial today.</span>
+    </h2>
+    <div className="mt-8 flex lg:mt-0 lg:flex-shrink-0">
+      <div className="inline-flex rounded-md shadow">
+        <a href="#" className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700">
+          Get started
+        </a>
+      </div>
+      <div className="ml-3 inline-flex rounded-md shadow">
+        <a href="#" className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-indigo-600 bg-white hover:bg-indigo-50">
+          Learn more
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+</section>
 
     </Layout>
   );

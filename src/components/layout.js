@@ -12,7 +12,7 @@ function Layout({ children }) {
         {children}
       </main>
 
-      <footer className="bg-blue-700">
+      <footer className="bg-purple-600">
         <nav className="flex justify-between max-w-4xl p-4 mx-auto text-sm md:p-8">
           <p className="text-white">
             Created by{` `}
@@ -22,15 +22,15 @@ function Layout({ children }) {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Taylor Bryant
+              Jose Cardona
             </a>
           </p>
 
           <p>
             <a
               className="font-bold text-white no-underline"
-              href="https://github.com/taylorbryant/gatsby-starter-tailwind"
-              target="_blank"
+              href="https://github.com/juan-cardona"
+              target="_blank" 
               rel="noopener noreferrer"
             >
               GitHub

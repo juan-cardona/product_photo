@@ -54,16 +54,16 @@ function Header() {
         >
           {[
             {
-              route: `/about`,
-              title: `About`,
+              route: `/precios`,
+              title: `Precios`,
             },
             {
-              route: `/contact`,
-              title: `Contact`,
+              route: `/nosotros`,
+              title: `Sobre Nosotros`,
             },
             {
-              route: `/prices`,
-              title: `Prices`,
+              route: `/contacto`,
+              title: `Contacto`,
             },
           ].map((link) => (
             <Link
