@@ -26,14 +26,14 @@ function IndexPage() {
 
         <img
           alt="Ejemplo de fotografia de producto"
-          className="inline-block w-1/2 mx-auto mt-16 float-center"
+          className="inline-block w-full mx-auto mt-16 float-center md:w-1/2"
           src={llaveDeAgua}
         />
 
       </section>
 
       <section className="text-left mt-4">
-        <h2 className="inline-block p-3 mb-6 mt-32 text-2xl font-bold ">
+        <h2 className="inline-block p-3 mb-6 mt-16 text-2xl font-bold ">
           Tu nos envías tu producto, nosotros te envíamos las fotos!
         </h2>
         <img
@@ -158,12 +158,12 @@ function IndexPage() {
     </h2>
     <div className="mt-8 flex lg:mt-0 lg:flex-shrink-0">
       <div className="inline-flex rounded-md shadow">
-        <a href="#" className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700">
+        <a href="/contacto" className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700">
           Get started
         </a>
       </div>
       <div className="ml-3 inline-flex rounded-md shadow">
-        <a href="#" className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-indigo-600 bg-white hover:bg-indigo-50">
+        <a href="precios" className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-indigo-600 bg-white hover:bg-indigo-50">
           Learn more
         </a>
       </div>
