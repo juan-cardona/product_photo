@@ -2,8 +2,8 @@ import React from "react";
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
-import catAndHumanIllustration from "../images/cat-and-human-illustration.svg";
-import llaveDeAgua from "../images/DSC00409-Edit.jpg";
+import productPhotographyIllustration from "../images/product_photography.svg";
+import bookedIllustration from "../images/booked_illustration.svg";
 
 
 function IndexPage() {
@@ -27,7 +27,7 @@ function IndexPage() {
         <img
           alt="Ejemplo de fotografia de producto"
           className="inline-block w-full mx-auto mt-16 float-center md:w-1/2"
-          src={llaveDeAgua}
+          src={productPhotographyIllustration}
         />
 
       </section>
@@ -39,7 +39,7 @@ function IndexPage() {
         <img
           alt="Cat and human sitting on a couch"
           className="block w-1/4 mx-auto mb-3 float-right"
-          src={catAndHumanIllustration}
+          src={bookedIllustration}
         />
         <p className="leading-loose px-4 text-left">
           Tu nos envías tu producto, nosotros te envíamos las fotos!
@@ -50,12 +50,12 @@ function IndexPage() {
 
           Si te interesa trabajar con un estudio remoto pero tienes curiosidad de como funciona nuestro proceso, puedes consultar nuestra guía de compra que hemos preparado cuidadosamenta para explicarte paso a paso nuestro proceso.
         </p>
-          <button className="float-right px-4 py-1 mt-12 text-md  text-purple-600 font-semibold rounded-md border border-purple-200 hover:text-white hover:bg-purple-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-offset-2">Message</button>
+          <a href="como_funciona" className=" inline-flex items-center justify-center px-5 py-3  ml-12 mt-12 text-md   font-semibold rounded-md border border-purple-200 text-white bg-purple-600 hover:text-purple-600 hover:bg-white hover:border-gray-100  focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-offset-2">Conoce más</a>
       </section>
 
 <section className="text-left">
 <div className="py-12 bg-white">
-  <div className="max-w-7xl mx-auto px-4 mt-28 sm:px-6 lg:px-8">
+  <div className="max-w-7xl mx-auto px-4 mt-20 sm:px-6 lg:px-8">
     <div className="lg:text-center">
       <h2 className="text-base text-purple-600  font-semibold tracking-wide uppercase">¿Qué ofrecemos?</h2>
       <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
@@ -166,18 +166,18 @@ function IndexPage() {
 <div className="bg-transparent">
   <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 lg:flex lg:items-center lg:justify-between">
     <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-      <span className="block">Ready to dive in?</span>
-      <span className="block text-indigo-600">Start your free trial today.</span>
+      <span className="block">¿Listo para empezar?</span>
+      <span className="block text-purple-600">Transforma tu ecommerce hoy</span>
     </h2>
     <div className="mt-8 flex lg:mt-0 lg:flex-shrink-0">
       <div className="inline-flex rounded-md shadow">
-        <a href="/contacto" className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700">
-          Get started
+        <a href="/contacto" className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-purple-600 hover:text-purple-600 hover:bg-purple-50 hover:border-gray-100 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-offset-2">
+          Inicia tu orden
         </a>
       </div>
       <div className="ml-3 inline-flex rounded-md shadow">
-        <a href="precios" className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-indigo-600 bg-white hover:bg-indigo-50">
-          Learn more
+        <a href="como_funciona" className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-purple-600 bg-white hover:bg-purple-50">
+          Conoce más
         </a>
       </div>
     </div>
