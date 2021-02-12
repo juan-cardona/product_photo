@@ -79,26 +79,24 @@ When the project is complete, we’ll carefully pack up and ship your products b
 
       
 <section>
-<div className="bg-transparent">
-  <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 lg:flex lg:items-center lg:justify-between">
+<div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 lg:flex lg:items-center lg:justify-between">
     <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-      <span className="block">Ready to dive in?</span>
-      <span className="block text-indigo-600">Start your free trial today.</span>
+      <span className="block">¿Listo para empezar?</span>
+      <span className="block text-purple-600">Potencializa tu producto hoy</span>
     </h2>
     <div className="mt-8 flex lg:mt-0 lg:flex-shrink-0">
       <div className="inline-flex rounded-md shadow">
-        <a href="/contacto" className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700">
-          Get started
+        <a href="/contacto" className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-purple-600 hover:text-purple-600 hover:bg-purple-50 hover:border-gray-100 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-offset-2">
+          Inicia tu orden
         </a>
       </div>
       <div className="ml-3 inline-flex rounded-md shadow">
-        <a href="precios" className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-indigo-600 bg-white hover:bg-indigo-50">
-          Learn more
+        <a href="precios" className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-purple-600 bg-white hover:bg-purple-50">
+          Precios
         </a>
       </div>
     </div>
   </div>
-</div>
 </section>
     </Layout>
   );
