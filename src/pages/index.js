@@ -50,7 +50,7 @@ function IndexPage() {
 
           Si te interesa trabajar con un estudio remoto pero tienes curiosidad de como funciona nuestro proceso, puedes consultar nuestra guía de compra que hemos preparado cuidadosamenta para explicarte paso a paso nuestro proceso.
         </p>
-          <a href="como_funciona" className=" inline-flex items-center justify-center px-5 py-3  ml-12 mt-12 text-md   font-semibold rounded-md border border-purple-200 text-white bg-purple-600 hover:text-purple-600 hover:bg-white hover:border-gray-100  focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-offset-2">Conoce más</a>
+          <a href="como-funciona" className=" inline-flex items-center justify-center px-5 py-3  ml-12 mt-12 text-md   font-semibold rounded-md border border-purple-200 text-white bg-purple-600 hover:text-purple-600 hover:bg-white hover:border-gray-100  focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-offset-2">Conoce más</a>
       </section>
 
 <section className="text-left">
@@ -176,7 +176,7 @@ function IndexPage() {
         </a>
       </div>
       <div className="ml-3 inline-flex rounded-md shadow">
-        <a href="como_funciona" className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-purple-600 bg-white hover:bg-purple-50">
+        <a href="como-funciona" className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-purple-600 bg-white hover:bg-purple-50">
           Conoce más
         </a>
       </div>
