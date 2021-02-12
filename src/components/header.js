@@ -58,8 +58,8 @@ function Header() {
               title: `Precios`,
             },
             {
-              route: `/nosotros`,
-              title: `Sobre Nosotros`,
+              route: `/como_funciona`,
+              title: `¿Cómo funciona?`,
             },
             {
               route: `/contacto`,

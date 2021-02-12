@@ -8,7 +8,7 @@ import llaveDeAgua from "../images/DSC00409-Edit.jpg";
 
 function IndexPage() {
   return (
-    <Layout>
+    <Layout >
       <SEO
         keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
         title="Home"
@@ -50,19 +50,19 @@ function IndexPage() {
 
           Si te interesa trabajar con un estudio remoto pero tienes curiosidad de como funciona nuestro proceso, puedes consultar nuestra guía de compra que hemos preparado cuidadosamenta para explicarte paso a paso nuestro proceso.
         </p>
-          <button className="float-right  px-4 py-1 mt-12 ml-28 text-sm  text-purple-600 font-semibold rounded-full border border-purple-200 hover:text-white hover:bg-purple-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-offset-2">Message</button>
+          <button className="float-right px-4 py-1 mt-12 text-md  text-purple-600 font-semibold rounded-md border border-purple-200 hover:text-white hover:bg-purple-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-offset-2">Message</button>
       </section>
 
 <section className="text-left">
 <div className="py-12 bg-white">
   <div className="max-w-7xl mx-auto px-4 mt-28 sm:px-6 lg:px-8">
     <div className="lg:text-center">
-      <h2 className="text-base text-purple-600  font-semibold tracking-wide uppercase">Ventajas</h2>
+      <h2 className="text-base text-purple-600  font-semibold tracking-wide uppercase">¿Qué ofrecemos?</h2>
       <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-      Crisp photos packed with features you’ll love
+      Fotos profesionales de tu producto listas para cualquier plataforma
       </p>
       <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
-      Fully compatible
+      Completamente compatible
       </p>
     </div>
 
@@ -148,6 +148,26 @@ function IndexPage() {
   </div>
 </div>
 </section>
+<section className="text-left mt-4">
+        <h2 className="inline-block p-3 mb-6 mt-16 text-2xl font-bold ">
+          Tu nos envías tu producto, nosotros te envíamos las fotos!
+        </h2>
+        <img
+          alt="Cat and human sitting on a couch"
+          className="block w-1/4 mx-auto mb-3 px-10 float-left"
+          src={catAndHumanIllustration}
+        />
+        <p className="leading-loose">
+          Tu nos envías tu producto, nosotros te envíamos las fotos!
+          <br></br>
+          Nos especializamos en fotograía de producto con fondos blancos para tu sitio web, tu tienda en línea, el marketplace de Amazon, Mercado Libre, Facebook y más.
+          Sólo envíanos tu producto a nuestro estudio en León, Gto, México, nuestro equipo se encargará de tomar y editar las fotos y te las envíaremos una vez que estén listas.
+          <br></br>
+
+          Si te interesa trabajar con un estudio remoto pero tienes curiosidad de como funciona nuestro proceso, puedes consultar nuestra guía de compra que hemos preparado cuidadosamenta para explicarte paso a paso nuestro proceso.
+        </p>
+         
+      </section>
 
 <section>
 <div className="bg-transparent">
@@ -172,6 +192,7 @@ function IndexPage() {
 </div>
 
 </section>
+
 
     </Layout>
   );
