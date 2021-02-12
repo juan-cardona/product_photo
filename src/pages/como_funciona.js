@@ -2,6 +2,11 @@ import React from "react";
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
+import bookedIllustration from "../images/booked_illustration.svg";
+import orderConfirmedllustration from "../images/order_confirmed.svg";
+import productPhotographyIllustration from "../images/product_photography.svg";
+import orderDeliveredIllustration from "../images/order_delivered.svg";
+
 
 function AboutPage() {
   return (
@@ -17,13 +22,32 @@ function AboutPage() {
  
                     <div className="relative z-10">
                         <h1 className="text-2xl lg:text-4xl text-black font-bold f-f-l pb-12">¿Cómo funciona?</h1>
-                        
+                        <img
+                          alt="Booking illustration"
+                          className="block w-1/4 mx-auto mb-3 float-center"
+                          src={bookedIllustration}
+                        />
                         <h2 className="text-xl font-semibold f-f-r  text-black pb-3 ">1. Inicia una orden</h2>
                         <p className="text-sm pb-7"> Visit our Start your order page and fill out the form. When submitted, you’ll receive a reply with a unique reference number and detailed shipping instructions. If you would like a quote before you ship you can send us the details of your project and we’ll email you back a quote.</p>
+                        <img
+                          alt="Order Confirmation"
+                          className="block w-1/4 mx-auto mb-3 float-center"
+                          src={orderConfirmedllustration}
+                        />
                         <h2 className="text-xl font-semibold f-f-r  text-black pb-3 ">2. Envíanos tus productos</h2>
                         <p className="text-sm pb-7"> Pack up your products and ship them to our Las Vegas studio. It’s a good idea to try and select the best products if you can, trying to avoid dings, dents, and scratches. Of course, pack each item securely so they don’t get damaged in transit. Enclose your reference number inside the box so we can let you know when your products arrive.</p>
+                        <img
+                          alt="Product Photography"
+                          className="block w-1/4 mx-auto mb-3 float-center"
+                          src={productPhotographyIllustration}
+                        />
                         <h2 className="text-xl font-semibold f-f-r  text-black pb-3 ">3. Nosotros fotografíamos tus productos</h2>
                         <p className="text-sm pb-7"> When your products arrive in our studio we’ll contact you to let you know. Now that we have your products on-hand, we will go over the details of your order and discuss with you any questions or concerns you may have before we start. Once payment is processed the fun begins and we’ll start shooting your photos! </p>
+                        <img
+                          alt="Entrega online inmediata"
+                          className="block w-1/4 mx-auto mb-3 float-center"
+                          src={orderDeliveredIllustration}
+                        /> 
                         <h2 className="text-xl font-semibold f-f-r  text-black pb-3 ">4. Entrega online inmediata</h2>
                         <p className="text-sm pb-7"> Once your photos are ready and meet our standards for delivery we’ll post them in a private online gallery where you can view and download them immediately. We keep your photos available online so you can come back and download them any time. If you’d like to make any changes or additions (additional charge may apply) let us know and we’ll make them before shipping your products back.
 When the project is complete, we’ll carefully pack up and ship your products back to you. Shipping fees can be included on your invoice or charged to your UPS or FedEx account.</p>
