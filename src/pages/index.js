@@ -152,11 +152,6 @@ function IndexPage() {
         <h2 className="inline-block p-3 mb-6 mt-16 text-2xl font-bold ">
           Tu nos envías tu producto, nosotros te envíamos las fotos!
         </h2>
-        <img
-          alt="Cat and human sitting on a couch"
-          className="block w-1/4 mx-auto mb-3 px-10 float-left"
-          src={catAndHumanIllustration}
-        />
         <p className="leading-loose">
           Tu nos envías tu producto, nosotros te envíamos las fotos!
           <br></br>
