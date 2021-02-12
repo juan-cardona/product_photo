@@ -22,7 +22,7 @@ function IndexPage() {
         Fotografía de producto para Amazon, Mercado Libre, tu sitio web y más...
         </h2>
 
-        <p className="leading-loose text-center">
+        <p className="leading-loose mx-4 p-2 text-center">
         Hacemos sencillo conseguir imagenes profesionales de tu producto.       
         </p>
 
