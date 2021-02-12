@@ -5,14 +5,16 @@ import Header from "./header";
 
 function Layout({ children }) {
   return (
-    <div className="flex flex-col h-screen font-sans">
+    <div className=" flex flex-col font-sans">
+      <div className="h-screen flex flex-col">
       <Header/>
-
-      <main className="flex-1 overflow-y-auto w-full max-w-4xl px-4 py-8 mx-auto md:px-8 md:py-16">
+      <div className="flex-1 flex overflow-hidden">
+      <div className="flex-1 overflow-y-scroll">
+      <main className="flex-1 overflow-y-scroll w-full max-w-screen-2xl  py-8 mx-auto md:py-16">
         {children}
       </main>
-      <footer className=" bg-purple-600">
-        <nav className="flex justify-between max-w-2xl p-2 mb-14 md:mb-2  mx-auto text-sm">
+      <footer className=" bg-purple-600 w-screen">
+        <nav className="flex justify-around  pb-4 text-sm">
           <p className="text-white">
             Created by{` `}
             <a
@@ -37,6 +39,9 @@ function Layout({ children }) {
           </p>
         </nav>
       </footer>
+      </div>
+      </div>
+      </div>
     </div>
   );
 }

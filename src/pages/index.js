@@ -16,6 +16,8 @@ function IndexPage() {
       
       <section className="text-center">
 
+
+
         <h2 className="inline-grid p-6 mt-8 mb-12 text-4xl font-bold ">
         Fotografía de producto para Amazon, Mercado Libre, tu sitio web y más...
         </h2>
@@ -31,7 +33,6 @@ function IndexPage() {
         />
 
       </section>
-
       <section className="text-left mt-4">
         <h2 className="inline-block p-3 mb-6 mt-16 text-2xl font-bold ">
           Tu nos envías tu producto, nosotros te envíamos las fotos!
