@@ -22,13 +22,13 @@ function IndexPage() {
         Fotografía de producto para Amazon, Mercado Libre, tu sitio web y más...
         </h2>
 
-        <p className="leading-loose">
+        <p className="leading-loose text-center">
         Hacemos sencillo conseguir imagenes profesionales de tu producto.       
         </p>
 
         <div className="mt-8 flex justify-center lg:mt-0 lg:flex-shrink-0">
         <div className="ml-3 inline-flex rounded-md ">
-        <a href="precios" className="inline-flex items-center justify-center px-2 py-2 border border-transparent text-base  font-small rounded-sm text-purple-600 bg-white hover:bg-purple-50">
+        <a href="como-funciona" className="inline-flex items-center justify-center px-2 py-2 border border-transparent text-base  font-small rounded-sm text-purple-600 bg-white hover:bg-purple-50">
           Conoce Más
         </a>
         </div>

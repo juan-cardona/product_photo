@@ -13,14 +13,11 @@ function ContactPage() {
       <section>
         <form>
           <h2 className="mb-8 leading-loose">
-            Here is an example of a form built using the official Tailwind CSS Forms plugin.{` `}
+            Contáctanos y te ayudaremos a escoger el mejor plan para tus necesidades{` `}
             <a
               className="font-bold text-gray-700 no-underline"
-              href="https://github.com/tailwindlabs/tailwindcss-forms"
-              target="_blank"
-              rel="noopener noreferrer"
             >
-              Read the docs
+              No se te cobrara nada en este momento 
             </a>
             .
           </h2>
@@ -29,13 +26,13 @@ function ContactPage() {
             className="block mb-2 text-xs font-bold uppercase"
             htmlFor="first-name"
           >
-            First Name
+            Nombre
           </label>
 
           <input
             className="w-full mb-6 rounded-md border-gray-800"
             id="first-name"
-            placeholder="Bill"
+            placeholder="Mario"
             type="text"
           />
 
@@ -43,13 +40,13 @@ function ContactPage() {
             className="block mb-2 text-xs font-bold uppercase"
             htmlFor="last-name"
           >
-            Last Name
+            Apellido
           </label>
 
           <input
             className="w-full mb-6 rounded-md border-gray-800"
             id="last-name"
-            placeholder="Murray"
+            placeholder="Martínez"
             type="text"
           />
 
@@ -57,13 +54,13 @@ function ContactPage() {
             className="block mb-2 text-xs font-bold uppercase"
             htmlFor="message"
           >
-            Message
+            Cuentanos sobre tu producto
           </label>
 
           <textarea
             className="w-full mb-6 rounded-md border-gray-800"
             id="message"
-            placeholder="Say something..."
+            placeholder="Di algo sobre tu producto..."
             rows="8"
           />
 
