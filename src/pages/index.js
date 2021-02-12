@@ -18,7 +18,7 @@ function IndexPage() {
 
 
 
-        <h2 className="inline-grid p-6 mt-8 mb-12 text-4xl font-bold ">
+        <h2 className="inline-grid p-2 mt-2 mb-2 text-xl text-center mx-2 font-bold ">
         Fotografía de producto para Amazon, Mercado Libre, tu sitio web y más...
         </h2>
 
@@ -26,11 +26,26 @@ function IndexPage() {
         Hacemos sencillo conseguir imagenes profesionales de tu producto.       
         </p>
 
+        <div className="mt-8 flex justify-center lg:mt-0 lg:flex-shrink-0">
+        <div className="ml-3 inline-flex rounded-md ">
+        <a href="precios" className="inline-flex items-center justify-center px-2 py-2 border border-transparent text-base  font-small rounded-sm text-purple-600 bg-white hover:bg-purple-50">
+          Conoce Más
+        </a>
+        </div>
+        <div className="inline-flex rounded-md justify-between shadow">
+        <a href="/contacto" className="inline-flex items-center justify-center px-2 py-2 border border-transparent shadow-sm text-base font-small rounded-sm text-white bg-purple-600 hover:text-purple-600 hover:bg-purple-50 hover:border-gray-100 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-offset-2">
+          Inicia tu Orden
+        </a>
+        </div>
+        </div>
+
+
         <img
           alt="Ejemplo de fotografia de producto"
           className="inline-block w-full mx-auto mt-16 float-center md:w-1/2"
           src={productPhotographyIllustration}
         />
+
 
       </section>
       <section className="text-left mt-4">
@@ -39,12 +54,10 @@ function IndexPage() {
         </h2>
         <img
           alt="Cat and human sitting on a couch"
-          className="block w-1/4 mx-auto mb-3 float-right"
+          className="block w-1/4 mx-auto mb-3"
           src={bookedIllustration}
         />
-        <p className="leading-loose px-4 text-left">
-          Tu nos envías tu producto, nosotros te envíamos las fotos!
-          <br></br>
+        <p className="leading-loose px-4 text-left mx-6">
           Nos especializamos en fotograía de producto con fondos blancos para tu sitio web, tu tienda en línea, el marketplace de Amazon, Mercado Libre, Facebook y más.
           Sólo envíanos tu producto a nuestro estudio en León, Gto, México, nuestro equipo se encargará de tomar y editar las fotos y te las envíaremos una vez que estén listas.
           <br></br>
