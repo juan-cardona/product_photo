@@ -41,7 +41,7 @@ function IndexPage() {
           className="block w-1/4 mx-auto mb-3 float-right"
           src={catAndHumanIllustration}
         />
-        <p className="leading-loose">
+        <p className="leading-loose px-4 text-left">
           Tu nos envías tu producto, nosotros te envíamos las fotos!
           <br></br>
           Nos especializamos en fotograía de producto con fondos blancos para tu sitio web, tu tienda en línea, el marketplace de Amazon, Mercado Libre, Facebook y más.
@@ -152,9 +152,7 @@ function IndexPage() {
         <h2 className="inline-block p-3 mb-6 mt-16 text-2xl font-bold ">
           Tu nos envías tu producto, nosotros te envíamos las fotos!
         </h2>
-        <p className="leading-loose">
-          Tu nos envías tu producto, nosotros te envíamos las fotos!
-          <br></br>
+        <p className="leading-loose px-4 text-left">
           Nos especializamos en fotograía de producto con fondos blancos para tu sitio web, tu tienda en línea, el marketplace de Amazon, Mercado Libre, Facebook y más.
           Sólo envíanos tu producto a nuestro estudio en León, Gto, México, nuestro equipo se encargará de tomar y editar las fotos y te las envíaremos una vez que estén listas.
           <br></br>
