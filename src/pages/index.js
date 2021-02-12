@@ -23,7 +23,7 @@ function IndexPage() {
         </h2>
 
         <p className="leading-loose mx-4 p-2 text-center">
-        Hacemos sencillo conseguir imagenes profesionales de tu producto.       
+        Hacemos que sea fácil conseguir imagenes profesionales de tu producto.       
         </p>
 
         <div className="mt-8 flex justify-center lg:mt-0 lg:flex-shrink-0">
